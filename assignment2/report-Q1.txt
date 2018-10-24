@@ -1,0 +1,14 @@
+Created by: Anna Palmqvist Sjövall
+StudentID: 19832192
+
+			FINDINGS FROM CONNECT 4 HEURISTIC
+
+
+I found an online AI that you can play connect-4 against (connect4.gamesolver.org). Using this I could play optimally against my AI to make sure I could evaluate the different depths in a similar way. As I can start I will always be able to win (proven in 1988 source: Victor Allis "A Knowledge-based Approach of Connect-Four"). Therefore none of the values for *max-depth* will result in a draw or loss. I am thus comparing how long until the AI's lost for each depth, that is how many turns I get before I win.
+
+*max-depth*	turns
+    2	 	  6
+    3             16
+    4		  18
+
+The difference between depth 3 and 4 is not that great. Thus, when playing without the AI depth 3 and 4 are percived to be of the same difficulty, which for me was hard enough. I would therefore say that a depth of 3 is sufficent.

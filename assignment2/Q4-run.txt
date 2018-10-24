@@ -1,0 +1,102 @@
+TRUE
+CLIPS> (load "Z:/home/osboxes/CSE2AIF/assignment2/Q4.clp")
+Defining defrule: system-intro +j
+Defining defrule: get-name =j+j
+Defining defrule: greeting +j
+Defining defrule: read-19th-century-books =j+j+j
+Defining defrule: read-which-century-books =j=j+j
+Defining defrule: rec-idiot =j=j+j+j
+Defining defrule: tol-and-dost-complicated =j=j=j+j+j
+Defining defrule: still-able-to-read-complicated-tol-dos +j+j
+Defining defrule: handle-tol-and-dos =j=j+j
+=j=j+j
+Defining defrule: rec-war-and-peace =j=j+j+j
+Defining defrule: rec-brothers =j=j=j+j
+Defining defrule: easier-book-from-19th-century =j=j=j+j
+Defining defrule: rec-anna-karenia =j=j+j+j
+Defining defrule: rec-crime-and-punishment =j=j=j+j
+Defining defrule: empathize-bad-character =j=j+j+j
+Defining defrule: rec-lolita =j=j+j+j
+Defining defrule: rec-master-and-margarita =j=j+j
+=j=j+j
+Defining defrule: get-easy-to-read =j=j+j
+Defining defrule: get-hate-feel-uncom =j=j+j
+Defining defrule: get-like-good-bad =j=j+j
+Defining defrule: get-know-christ =j=j+j
+Defining defrule: get-read-book =j=j+j
+Defining defrule: get-tiresome =j=j+j
+Defining defrule: get-book-feeling =j=j+j
+Defining defrule: get-romance =j=j+j
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+
+
+[ROUTER1] Logical name Welcome to the Classic Russian Books Recommending Expert System! was not recognized by any routers
+_____________________________________________________________
+
+What is your name?Anna
+Hello Anna
+Would you like a book that is easier to read? (y/n)
+y
+You will apprichiate a book from the 20th century more (silver era).
+
+Do you hate feeling uncomfortable when reading a book? (y/n)
+n
+Do you like good/bad and christian themes? (y/n)
+y
+Do you have knowledge about christianity (e.g who Pontius Pilate is? (y/n)
+n
+You should read Lolita by Nabokov.
+
+CLIPS> (reset)
+CLIPS> (run)
+
+
+[ROUTER1] Logical name Welcome to the Classic Russian Books Recommending Expert System! was not recognized by any routers
+_____________________________________________________________
+
+What is your name?Anna
+Hello Anna
+Would you like a book that is easier to read? (y/n)
+n
+You can read a book from the 19th century (golden era).
+
+Do you hate feeling uncomfortable when reading a book? (y/n)
+n
+Do you like good/bad and christian themes? (y/n)
+y
+You should read The Idiot by Dostoyevsky.
+
+CLIPS> (reset)
+CLIPS> (run)
+
+
+[ROUTER1] Logical name Welcome to the Classic Russian Books Recommending Expert System! was not recognized by any routers
+_____________________________________________________________
+
+What is your name?Anna
+Hello Anna
+Would you like a book that is easier to read? (y/n)
+n
+You can read a book from the 19th century (golden era).
+
+Do you hate feeling uncomfortable when reading a book? (y/n)
+n
+Do you like good/bad and christian themes? (y/n)
+n
+Do you have knowledge about christianity (e.g who Pontius Pilate is? (y/n)
+n
+Have you read a book by Dostoyevsky or Tolstoy before? (y/n)
+n
+You might find Tolstoy and Dostoyevsky's books a bit too hard to read.
+
+You should be able to handle Tolstoy and Dostoyevsky's more complicated works.
+
+Do you find long epic descriptions and storylines tiresome? (y/n)
+n
+Would you rather feel 1.nervous,afraid and extatic or 2.at ease with the universe? (1/2)
+2
+You should read a book by Tolstoy called War and Peace.
+
+CLIPS> (dribble-off)

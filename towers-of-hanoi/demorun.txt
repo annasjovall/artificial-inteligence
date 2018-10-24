@@ -1,0 +1,14 @@
+;;;;Created by: Anna Palmqvist Sjövall
+;;;;StudentID: 19832192
+
+;; Dribble of #<IO TERMINAL-STREAM> started on 2018-08-24 12:29:55.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"demorun.txt">
+[3]> (run)
+;; Loading file towers.lisp ...
+;; Loaded file towers.lisp
+;; Loading file a-star.lisp ...
+;; Loaded file a-star.lisp
+#S(SEARCH-STATISTICS :NODES-VISITED 11 :MAXIMUM-LENGTH-OF-NODE-LIST 6
+   :LENGTH-OF-SOLUTION 7 :MAXIMUM-DEPTH 8 :COST-OF-SOLUTION 7)
+[4]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2018-08-24 12:30:10.
